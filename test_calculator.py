@@ -46,3 +46,5 @@ class TestDivide:
     def test_divide_by_zero_raises(self):
         with pytest.raises(ValueError):
             divide(5, 0)
+
+# ─── 모든 테스트 실행 ──────────────────────────────
